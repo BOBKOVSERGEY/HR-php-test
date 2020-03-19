@@ -68,7 +68,7 @@
 
         <div class="row">
             <div class="col-md-12">
-                {{$orders->render()}}
+                {{$orders->links('paginate')}}
             </div>
         </div>
 
