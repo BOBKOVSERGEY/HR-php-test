@@ -14,7 +14,6 @@ class WeatherController extends Controller
      */
     public function index(Weather $weather)
     {
-
         return view('weather.index', [
             'pageTitle' => 'Температура в Брянске',
             'temperature' => $weather->getTemperature(),
