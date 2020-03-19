@@ -34,5 +34,10 @@ return [
         'key' => env('STRIPE_KEY'),
         'secret' => env('STRIPE_SECRET'),
     ],
+    'weather' => [
+        'yandex' => [
+            'key' => env('YANDEX_WEATHER_API_KEY', '53ab78b4-88ff-4b83-8cac-e8bcc4e353ac'),
+        ]
+    ]
 
 ];
